@@ -1,0 +1,10 @@
+**/node_modules/
+**/.env
+**/dist/
+**/build/
+**/.dart_tool/
+**/.flutter-plugins-dependencies
+**/local.properties
+**/key.properties
+**/*.jks
+**/*.keystore

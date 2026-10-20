@@ -1,0 +1,11 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {"label": "ICA: preparar móvil", "type": "shell", "command": "flutter pub get", "options": {"cwd": "${workspaceFolder}/frontend"}, "problemMatcher": []},
+    {"label": "ICA: analizar móvil", "type": "shell", "command": "flutter analyze", "options": {"cwd": "${workspaceFolder}/frontend"}, "problemMatcher": []},
+    {"label": "ICA: probar móvil", "type": "shell", "command": "flutter test", "options": {"cwd": "${workspaceFolder}/frontend"}, "problemMatcher": []},
+    {"label": "ICA: verificar móvil", "dependsOrder": "sequence", "dependsOn": ["ICA: analizar móvil", "ICA: probar móvil"], "problemMatcher": []},
+    {"label": "ICA: generar APK de prueba", "type": "shell", "command": "flutter build apk --debug", "options": {"cwd": "${workspaceFolder}/frontend"}, "problemMatcher": []},
+    {"label": "ICA: iniciar servidor", "type": "shell", "command": "npm run dev", "options": {"cwd": "${workspaceFolder}/backend"}, "problemMatcher": []}
+  ]
+}

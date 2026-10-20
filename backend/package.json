@@ -1,0 +1,8 @@
+{
+  "name": "ice-cream-api", "version": "1.0.0", "private": true,
+  "description": "Backend de Ice Cream App", "main": "dist/server.js", "type": "commonjs",
+  "engines": {"node": ">=22"},
+  "scripts": {"dev": "npm run build && node dist/server.js", "build": "tsc", "start": "node dist/server.js", "db:setup": "npm run build && node dist/migrate.js", "test": "npm run build && node test/order.test.cjs"},
+  "dependencies": {"cors": "^2.8.5", "dotenv": "^17.2.2", "express": "^5.2.1", "pg": "^8.16.3"},
+  "devDependencies": {"@types/cors": "^2.8.19", "@types/express": "^5.0.6", "@types/node": "^24.0.0", "@types/pg": "^8.15.5", "typescript": "~5.9.3"}
+}
