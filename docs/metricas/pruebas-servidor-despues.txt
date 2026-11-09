@@ -1,0 +1,16 @@
+✔ hash de contraseña con sal y comprobación (244.2318ms)
+✔ cuentas, aislamiento, pedidos idempotentes, auditoría y administración en PostgreSQL (1018.19ms)
+✔ varios toppings se suman por unidad y se normalizan (1.1753ms)
+✔ recalcula con precios del servidor y extras (0.3244ms)
+✔ rechaza carrito vacío, cantidades inválidas y extras desconocidos (0.6784ms)
+✔ rechaza productos no disponibles y precios corruptos (0.4399ms)
+✔ ignora precios manipulados por el cliente (0.3778ms)
+✔ API responde y rechaza JSON o pedidos inválidos sin tocar la base de datos (45.0579ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1346.2833

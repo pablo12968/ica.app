@@ -1,0 +1,372 @@
+{
+  "tool": "TypeScript 5.9.3",
+  "files": [
+    {
+      "file": "backend/src/admin.ts",
+      "sha256": "1dffb8a6a64bf955a735d89346736a410343598319f80f8b78a0a3291da56be9",
+      "loc": 9,
+      "imports": [
+        "backend/src/config/database.ts"
+      ],
+      "units": [
+        {
+          "name": "main",
+          "line": 3,
+          "loc": 7,
+          "cc": 3
+        },
+        {
+          "name": "main().catch",
+          "line": 10,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "main().catch(e => { console.error(e.message); process.exitCode = 1; }).finally",
+          "line": 10,
+          "loc": 1,
+          "cc": 1
+        }
+      ]
+    },
+    {
+      "file": "backend/src/app.ts",
+      "sha256": "4c1e82e87844b03e9c5e2f89ba4570e6683cf4b93fb15d0f728693226cfff717",
+      "loc": 46,
+      "imports": [
+        "backend/src/auth.ts",
+        "backend/src/config/database.ts",
+        "backend/src/routes/admin.routes.ts",
+        "backend/src/routes/auth.routes.ts",
+        "backend/src/routes/order.routes.ts",
+        "backend/src/routes/product.routes.ts"
+      ],
+      "units": [
+        {
+          "name": "app.use",
+          "line": 15,
+          "loc": 10,
+          "cc": 6
+        },
+        {
+          "name": "app.get /",
+          "line": 25,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "app.get /health",
+          "line": 26,
+          "loc": 4,
+          "cc": 1
+        },
+        {
+          "name": "app.post /api/activity",
+          "line": 34,
+          "loc": 7,
+          "cc": 2
+        },
+        {
+          "name": "app.use",
+          "line": 42,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "app.use",
+          "line": 43,
+          "loc": 4,
+          "cc": 4
+        }
+      ]
+    },
+    {
+      "file": "backend/src/auth.ts",
+      "sha256": "7341daafe0e01739edea2f675bf59a683e81b6f84affdaa25f321e675301557d",
+      "loc": 33,
+      "imports": [
+        "backend/src/config/database.ts"
+      ],
+      "units": [
+        {
+          "name": "tokenHash",
+          "line": 6,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "hashPassword",
+          "line": 7,
+          "loc": 5,
+          "cc": 1
+        },
+        {
+          "name": "checkPassword",
+          "line": 12,
+          "loc": 6,
+          "cc": 2
+        },
+        {
+          "name": "publicUser",
+          "line": 18,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "requireUser",
+          "line": 19,
+          "loc": 11,
+          "cc": 3
+        },
+        {
+          "name": "requireAdmin",
+          "line": 30,
+          "loc": 4,
+          "cc": 2
+        }
+      ]
+    },
+    {
+      "file": "backend/src/config/database.ts",
+      "sha256": "a8730299646ad11bbefdf32a81515bb4d9a9b745207f364d17cc5e45f4d41deb",
+      "loc": 10,
+      "imports": [],
+      "units": []
+    },
+    {
+      "file": "backend/src/migrate.ts",
+      "sha256": "6979d72542666b766d265f4dc6a3a87822e195cba2252603cd36ce3946742f8b",
+      "loc": 10,
+      "imports": [
+        "backend/src/config/database.ts"
+      ],
+      "units": [
+        {
+          "name": "migrate",
+          "line": 4,
+          "loc": 6,
+          "cc": 1
+        },
+        {
+          "name": "migrate().catch",
+          "line": 10,
+          "loc": 1,
+          "cc": 1
+        }
+      ]
+    },
+    {
+      "file": "backend/src/order.ts",
+      "sha256": "6a47526e5382accffa16cbe8bc84f512f536a5860bc803a56577499c95e23927",
+      "loc": 32,
+      "imports": [],
+      "units": [
+        {
+          "name": "validateContact",
+          "line": 5,
+          "loc": 4,
+          "cc": 7
+        },
+        {
+          "name": "normalizeToppings",
+          "line": 10,
+          "loc": 5,
+          "cc": 7
+        },
+        {
+          "name": "extras.some",
+          "line": 12,
+          "loc": 1,
+          "cc": 3
+        },
+        {
+          "name": "validateOrder",
+          "line": 16,
+          "loc": 11,
+          "cc": 8
+        },
+        {
+          "name": "body.items.map",
+          "line": 20,
+          "loc": 5,
+          "cc": 9
+        },
+        {
+          "name": "priceOrder",
+          "line": 27,
+          "loc": 9,
+          "cc": 1
+        },
+        {
+          "name": "items.map",
+          "line": 28,
+          "loc": 7,
+          "cc": 4
+        },
+        {
+          "name": "products.find",
+          "line": 29,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "item.toppings.reduce",
+          "line": 33,
+          "loc": 1,
+          "cc": 1
+        }
+      ]
+    },
+    {
+      "file": "backend/src/routes/admin.routes.ts",
+      "sha256": "ac03dba39f6f1444324f469eff2e1fcb326f7675436c042499f606ecb5644c10",
+      "loc": 19,
+      "imports": [
+        "backend/src/auth.ts",
+        "backend/src/config/database.ts"
+      ],
+      "units": [
+        {
+          "name": "router.get /:section",
+          "line": 6,
+          "loc": 13,
+          "cc": 6
+        }
+      ]
+    },
+    {
+      "file": "backend/src/routes/auth.routes.ts",
+      "sha256": "bc0ff37539995676f17e7741ed2f5f4031caf689c2667c4d50e548898f58f622",
+      "loc": 58,
+      "imports": [
+        "backend/src/auth.ts",
+        "backend/src/config/database.ts"
+      ],
+      "units": [
+        {
+          "name": "router.use",
+          "line": 6,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "router.post",
+          "line": 8,
+          "loc": 37,
+          "cc": 22
+        },
+        {
+          "name": "router.get /me",
+          "line": 47,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "router.post /logout",
+          "line": 48,
+          "loc": 11,
+          "cc": 2
+        }
+      ]
+    },
+    {
+      "file": "backend/src/routes/order.routes.ts",
+      "sha256": "deda313a3e791b6f82a05e7befa78b48afaefe81abc6cae2bb60ca0e2df37b88",
+      "loc": 44,
+      "imports": [
+        "backend/src/auth.ts",
+        "backend/src/config/database.ts",
+        "backend/src/order.ts"
+      ],
+      "units": [
+        {
+          "name": "router.get /",
+          "line": 8,
+          "loc": 4,
+          "cc": 1
+        },
+        {
+          "name": "result.rows.map",
+          "line": 10,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "router.post /",
+          "line": 12,
+          "loc": 32,
+          "cc": 10
+        },
+        {
+          "name": "input.items.map",
+          "line": 30,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "items.reduce",
+          "line": 32,
+          "loc": 1,
+          "cc": 1
+        }
+      ]
+    },
+    {
+      "file": "backend/src/routes/product.routes.ts",
+      "sha256": "e121d2d5faf62f8e49b454440ad94693fd364491b5e0179c57f83d413c65cf49",
+      "loc": 17,
+      "imports": [
+        "backend/src/config/database.ts"
+      ],
+      "units": [
+        {
+          "name": "router.get /",
+          "line": 6,
+          "loc": 13,
+          "cc": 2
+        }
+      ]
+    },
+    {
+      "file": "backend/src/server.ts",
+      "sha256": "f3e797a0faee56d5d56d017cc1d71d862afd8b4438f6523b4762d23c1268ab57",
+      "loc": 14,
+      "imports": [
+        "backend/src/app.ts",
+        "backend/src/config/database.ts"
+      ],
+      "units": [
+        {
+          "name": "start",
+          "line": 4,
+          "loc": 10,
+          "cc": 1
+        },
+        {
+          "name": "app.listen",
+          "line": 9,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "close",
+          "line": 10,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "server.close",
+          "line": 10,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "start().catch",
+          "line": 14,
+          "loc": 1,
+          "cc": 1
+        }
+      ]
+    }
+  ]
+}

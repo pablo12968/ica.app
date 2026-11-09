@@ -1,0 +1,1512 @@
+{
+  "tool": "Dart analyzer 10.1.0",
+  "files": [
+    {
+      "file": "frontend/lib/account.dart",
+      "sha256": "4fa5532ad8189a3b5b92ace3260c091d0b757508401843380616127b9b133c35",
+      "loc": 405,
+      "imports": [
+        "frontend/lib/models.dart",
+        "frontend/lib/store.dart"
+      ],
+      "units": [
+        {
+          "name": "constructor",
+          "line": 7,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "createState",
+          "line": 10,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "dispose",
+          "line": 22,
+          "loc": 7,
+          "cc": 1
+        },
+        {
+          "name": "submit",
+          "line": 30,
+          "loc": 24,
+          "cc": 7
+        },
+        {
+          "name": "<anónima>",
+          "line": 32,
+          "loc": 4,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 45,
+          "loc": 3,
+          "cc": 2
+        },
+        {
+          "name": "<anónima>",
+          "line": 51,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "build",
+          "line": 56,
+          "loc": 151,
+          "cc": 14
+        },
+        {
+          "name": "<anónima>",
+          "line": 99,
+          "loc": 2,
+          "cc": 3
+        },
+        {
+          "name": "<anónima>",
+          "line": 114,
+          "loc": 5,
+          "cc": 3
+        },
+        {
+          "name": "<anónima>",
+          "line": 135,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 135,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 141,
+          "loc": 3,
+          "cc": 3
+        },
+        {
+          "name": "<anónima>",
+          "line": 156,
+          "loc": 3,
+          "cc": 2
+        },
+        {
+          "name": "<anónima>",
+          "line": 190,
+          "loc": 5,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 190,
+          "loc": 5,
+          "cc": 1
+        },
+        {
+          "name": "constructor",
+          "line": 210,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "createState",
+          "line": 213,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "initState",
+          "line": 221,
+          "loc": 4,
+          "cc": 1
+        },
+        {
+          "name": "load",
+          "line": 226,
+          "loc": 3,
+          "cc": 1
+        },
+        {
+          "name": "refresh",
+          "line": 229,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 229,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "date",
+          "line": 230,
+          "loc": 6,
+          "cc": 2
+        },
+        {
+          "name": "event",
+          "line": 237,
+          "loc": 11,
+          "cc": 2
+        },
+        {
+          "name": "build",
+          "line": 249,
+          "loc": 165,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 277,
+          "loc": 5,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 287,
+          "loc": 122,
+          "cc": 16
+        },
+        {
+          "name": "<anónima>",
+          "line": 388,
+          "loc": 4,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 397,
+          "loc": 4,
+          "cc": 1
+        }
+      ]
+    },
+    {
+      "file": "frontend/lib/design.dart",
+      "sha256": "f0362cb327fdda468564d6488c571e311e63303291cd528d910a951d78818038",
+      "loc": 165,
+      "imports": [
+        "frontend/lib/models.dart"
+      ],
+      "units": [
+        {
+          "name": "productAsset",
+          "line": 10,
+          "loc": 14,
+          "cc": 3
+        },
+        {
+          "name": "constructor",
+          "line": 26,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "build",
+          "line": 30,
+          "loc": 14,
+          "cc": 2
+        },
+        {
+          "name": "<anónima>",
+          "line": 40,
+          "loc": 2,
+          "cc": 1
+        },
+        {
+          "name": "constructor",
+          "line": 47,
+          "loc": 5,
+          "cc": 1
+        },
+        {
+          "name": "build",
+          "line": 55,
+          "loc": 20,
+          "cc": 1
+        },
+        {
+          "name": "constructor",
+          "line": 79,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "build",
+          "line": 84,
+          "loc": 5,
+          "cc": 1
+        },
+        {
+          "name": "constructor",
+          "line": 92,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "paint",
+          "line": 104,
+          "loc": 68,
+          "cc": 5
+        },
+        {
+          "name": "shouldRepaint",
+          "line": 174,
+          "loc": 2,
+          "cc": 1
+        }
+      ]
+    },
+    {
+      "file": "frontend/lib/main.dart",
+      "sha256": "0bdf9b68121b3bddf91be3a47c3f071a06c5d41ad8b101d9f569a078c83c8338",
+      "loc": 243,
+      "imports": [
+        "frontend/lib/account.dart",
+        "frontend/lib/design.dart",
+        "frontend/lib/models.dart",
+        "frontend/lib/shop.dart",
+        "frontend/lib/sounds.dart",
+        "frontend/lib/store.dart"
+      ],
+      "units": [
+        {
+          "name": "main",
+          "line": 12,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "constructor",
+          "line": 15,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "createState",
+          "line": 19,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "initState",
+          "line": 26,
+          "loc": 7,
+          "cc": 4
+        },
+        {
+          "name": "dispose",
+          "line": 35,
+          "loc": 5,
+          "cc": 3
+        },
+        {
+          "name": "build",
+          "line": 42,
+          "loc": 60,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 97,
+          "loc": 3,
+          "cc": 3
+        },
+        {
+          "name": "constructor",
+          "line": 105,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "createState",
+          "line": 109,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "initState",
+          "line": 118,
+          "loc": 4,
+          "cc": 2
+        },
+        {
+          "name": "dispose",
+          "line": 124,
+          "loc": 5,
+          "cc": 1
+        },
+        {
+          "name": "submit",
+          "line": 130,
+          "loc": 27,
+          "cc": 6
+        },
+        {
+          "name": "<anónima>",
+          "line": 133,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 136,
+          "loc": 4,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 146,
+          "loc": 8,
+          "cc": 3
+        },
+        {
+          "name": "build",
+          "line": 159,
+          "loc": 96,
+          "cc": 9
+        },
+        {
+          "name": "<anónima>",
+          "line": 168,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 199,
+          "loc": 3,
+          "cc": 3
+        }
+      ]
+    },
+    {
+      "file": "frontend/lib/models.dart",
+      "sha256": "a84e8b6d8f97aa2ee304ec1f9b2c76f94f9ba5bb66d678016f6bfa7b488f6447",
+      "loc": 132,
+      "imports": [],
+      "units": [
+        {
+          "name": "constructor",
+          "line": 5,
+          "loc": 7,
+          "cc": 1
+        },
+        {
+          "name": "fromJson",
+          "line": 12,
+          "loc": 7,
+          "cc": 3
+        },
+        {
+          "name": "money",
+          "line": 93,
+          "loc": 8,
+          "cc": 2
+        },
+        {
+          "name": "<anónima>",
+          "line": 96,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "topping",
+          "line": 106,
+          "loc": 2,
+          "cc": 2
+        },
+        {
+          "name": "constructor",
+          "line": 109,
+          "loc": 7,
+          "cc": 2
+        },
+        {
+          "name": "custom",
+          "line": 116,
+          "loc": 6,
+          "cc": 1
+        },
+        {
+          "name": "key",
+          "line": 122,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "unitPrice",
+          "line": 123,
+          "loc": 4,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 126,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "total",
+          "line": 127,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "toJson",
+          "line": 128,
+          "loc": 7,
+          "cc": 1
+        }
+      ]
+    },
+    {
+      "file": "frontend/lib/shop.dart",
+      "sha256": "022ef3fc48dc7c825e3ca09b391cb56f4c1888484593c60f35d42054301668de",
+      "loc": 1346,
+      "imports": [
+        "frontend/lib/account.dart",
+        "frontend/lib/design.dart",
+        "frontend/lib/main.dart",
+        "frontend/lib/models.dart",
+        "frontend/lib/sounds.dart",
+        "frontend/lib/store.dart",
+        "frontend/lib/toppings_page.dart"
+      ],
+      "units": [
+        {
+          "name": "constructor",
+          "line": 14,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "createState",
+          "line": 18,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "store",
+          "line": 26,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "sounds",
+          "line": 27,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "navigate",
+          "line": 28,
+          "loc": 22,
+          "cc": 3
+        },
+        {
+          "name": "<anónima>",
+          "line": 31,
+          "loc": 13,
+          "cc": 3
+        },
+        {
+          "name": "<anónima>",
+          "line": 48,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "dispose",
+          "line": 52,
+          "loc": 4,
+          "cc": 1
+        },
+        {
+          "name": "build",
+          "line": 58,
+          "loc": 169,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 60,
+          "loc": 166,
+          "cc": 12
+        },
+        {
+          "name": "<anónima>",
+          "line": 68,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 134,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 146,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "matchesCategory",
+          "line": 228,
+          "loc": 7,
+          "cc": 6
+        },
+        {
+          "name": "catalog",
+          "line": 236,
+          "loc": 189,
+          "cc": 16
+        },
+        {
+          "name": "<anónima>",
+          "line": 244,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 251,
+          "loc": 4,
+          "cc": 4
+        },
+        {
+          "name": "<anónima>",
+          "line": 268,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 268,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 276,
+          "loc": 4,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 278,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 306,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 306,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 366,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 366,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 374,
+          "loc": 8,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 376,
+          "loc": 5,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 394,
+          "loc": 18,
+          "cc": 4
+        },
+        {
+          "name": "hero",
+          "line": 426,
+          "loc": 91,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 429,
+          "loc": 86,
+          "cc": 5
+        },
+        {
+          "name": "<anónima>",
+          "line": 497,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "productCard",
+          "line": 518,
+          "loc": 92,
+          "cc": 4
+        },
+        {
+          "name": "<anónima>",
+          "line": 521,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 546,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 589,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "openProduct",
+          "line": 611,
+          "loc": 21,
+          "cc": 3
+        },
+        {
+          "name": "<anónima>",
+          "line": 614,
+          "loc": 2,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 625,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "clearCart",
+          "line": 633,
+          "loc": 20,
+          "cc": 2
+        },
+        {
+          "name": "<anónima>",
+          "line": 636,
+          "loc": 14,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 641,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 645,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "cart",
+          "line": 654,
+          "loc": 130,
+          "cc": 5
+        },
+        {
+          "name": "<anónima>",
+          "line": 661,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 711,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 713,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 721,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 757,
+          "loc": 11,
+          "cc": 3
+        },
+        {
+          "name": "<anónima>",
+          "line": 762,
+          "loc": 2,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 766,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "quantityControls",
+          "line": 785,
+          "loc": 17,
+          "cc": 2
+        },
+        {
+          "name": "history",
+          "line": 803,
+          "loc": 110,
+          "cc": 9
+        },
+        {
+          "name": "<anónima>",
+          "line": 810,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 826,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 837,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "orderDate",
+          "line": 914,
+          "loc": 6,
+          "cc": 2
+        },
+        {
+          "name": "profile",
+          "line": 921,
+          "loc": 136,
+          "cc": 7
+        },
+        {
+          "name": "<anónima>",
+          "line": 957,
+          "loc": 4,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 959,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 965,
+          "loc": 17,
+          "cc": 4
+        },
+        {
+          "name": "<anónima>",
+          "line": 998,
+          "loc": 4,
+          "cc": 2
+        },
+        {
+          "name": "<anónima>",
+          "line": 1008,
+          "loc": 7,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 1008,
+          "loc": 7,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 1021,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "empty",
+          "line": 1058,
+          "loc": 36,
+          "cc": 1
+        },
+        {
+          "name": "constructor",
+          "line": 1097,
+          "loc": 6,
+          "cc": 1
+        },
+        {
+          "name": "createState",
+          "line": 1107,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "unitPrice",
+          "line": 1113,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "build",
+          "line": 1115,
+          "loc": 251,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 1117,
+          "loc": 248,
+          "cc": 5
+        },
+        {
+          "name": "<anónima>",
+          "line": 1140,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 1154,
+          "loc": 2,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 1215,
+          "loc": 70,
+          "cc": 8
+        },
+        {
+          "name": "<anónima>",
+          "line": 1227,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 1227,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 1300,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 1300,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 1316,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 1316,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 1341,
+          "loc": 18,
+          "cc": 3
+        },
+        {
+          "name": "<anónima>",
+          "line": 1342,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 1346,
+          "loc": 7,
+          "cc": 1
+        }
+      ]
+    },
+    {
+      "file": "frontend/lib/sounds.dart",
+      "sha256": "6bfe33062491670b331f09a9a66a78c5ad7c262cc53118677145db81a024d46a",
+      "loc": 72,
+      "imports": [],
+      "units": [
+        {
+          "name": "constructor",
+          "line": 10,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "init",
+          "line": 19,
+          "loc": 9,
+          "cc": 4
+        },
+        {
+          "name": "setEnabled",
+          "line": 29,
+          "loc": 9,
+          "cc": 3
+        },
+        {
+          "name": "play",
+          "line": 40,
+          "loc": 28,
+          "cc": 9
+        },
+        {
+          "name": "action",
+          "line": 70,
+          "loc": 5,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 71,
+          "loc": 4,
+          "cc": 1
+        },
+        {
+          "name": "dispose",
+          "line": 77,
+          "loc": 5,
+          "cc": 1
+        }
+      ]
+    },
+    {
+      "file": "frontend/lib/store.dart",
+      "sha256": "29f64a3ddacc2dfcc1286ec4cf1e474fbfbd3d1fe36d25c1e048f2eb9d2790b1",
+      "loc": 385,
+      "imports": [
+        "frontend/lib/models.dart"
+      ],
+      "units": [
+        {
+          "name": "constructor",
+          "line": 13,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "configured",
+          "line": 19,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "signedIn",
+          "line": 22,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "isAdmin",
+          "line": 23,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "constructor",
+          "line": 26,
+          "loc": 6,
+          "cc": 3
+        },
+        {
+          "name": "authHeaders",
+          "line": 32,
+          "loc": 4,
+          "cc": 2
+        },
+        {
+          "name": "request",
+          "line": 37,
+          "loc": 32,
+          "cc": 10
+        },
+        {
+          "name": "authenticate",
+          "line": 70,
+          "loc": 35,
+          "cc": 6
+        },
+        {
+          "name": "refreshOrders",
+          "line": 106,
+          "loc": 6,
+          "cc": 1
+        },
+        {
+          "name": "_clearSession",
+          "line": 113,
+          "loc": 11,
+          "cc": 1
+        },
+        {
+          "name": "logout",
+          "line": 125,
+          "loc": 4,
+          "cc": 1
+        },
+        {
+          "name": "recordActivity",
+          "line": 130,
+          "loc": 7,
+          "cc": 4
+        },
+        {
+          "name": "dispose",
+          "line": 140,
+          "loc": 4,
+          "cc": 1
+        },
+        {
+          "name": "total",
+          "line": 153,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 153,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "count",
+          "line": 154,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 154,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "init",
+          "line": 156,
+          "loc": 17,
+          "cc": 7
+        },
+        {
+          "name": "loadProducts",
+          "line": 174,
+          "loc": 38,
+          "cc": 6
+        },
+        {
+          "name": "<anónima>",
+          "line": 187,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 192,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "toggleFavorite",
+          "line": 213,
+          "loc": 31,
+          "cc": 6
+        },
+        {
+          "name": "<anónima>",
+          "line": 225,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 237,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "add",
+          "line": 245,
+          "loc": 11,
+          "cc": 3
+        },
+        {
+          "name": "<anónima>",
+          "line": 247,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "changeQuantity",
+          "line": 257,
+          "loc": 7,
+          "cc": 3
+        },
+        {
+          "name": "addCustomized",
+          "line": 265,
+          "loc": 24,
+          "cc": 8
+        },
+        {
+          "name": "<anónima>",
+          "line": 274,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 278,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "remove",
+          "line": 290,
+          "loc": 5,
+          "cc": 1
+        },
+        {
+          "name": "clearCart",
+          "line": 296,
+          "loc": 5,
+          "cc": 1
+        },
+        {
+          "name": "checkout",
+          "line": 304,
+          "loc": 103,
+          "cc": 16
+        },
+        {
+          "name": "<anónima>",
+          "line": 311,
+          "loc": 5,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 322,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 330,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 375,
+          "loc": 1,
+          "cc": 1
+        }
+      ]
+    },
+    {
+      "file": "frontend/lib/toppings_page.dart",
+      "sha256": "72dc2c7695e4470c911618ac93f4da3d53c7b0b69db12dd1a1260b57474f65f2",
+      "loc": 530,
+      "imports": [
+        "frontend/lib/design.dart",
+        "frontend/lib/models.dart",
+        "frontend/lib/sounds.dart",
+        "frontend/lib/store.dart"
+      ],
+      "units": [
+        {
+          "name": "constructor",
+          "line": 10,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "build",
+          "line": 13,
+          "loc": 28,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 17,
+          "loc": 21,
+          "cc": 1
+        },
+        {
+          "name": "constructor",
+          "line": 44,
+          "loc": 8,
+          "cc": 1
+        },
+        {
+          "name": "createState",
+          "line": 58,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "base",
+          "line": 65,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "unit",
+          "line": 66,
+          "loc": 2,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 67,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "toggle",
+          "line": 68,
+          "loc": 6,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 69,
+          "loc": 3,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 69,
+          "loc": 3,
+          "cc": 2
+        },
+        {
+          "name": "back",
+          "line": 74,
+          "loc": 7,
+          "cc": 2
+        },
+        {
+          "name": "<anónima>",
+          "line": 76,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "heading",
+          "line": 82,
+          "loc": 8,
+          "cc": 1
+        },
+        {
+          "name": "photo",
+          "line": 90,
+          "loc": 30,
+          "cc": 1
+        },
+        {
+          "name": "progress",
+          "line": 120,
+          "loc": 35,
+          "cc": 8
+        },
+        {
+          "name": "intro",
+          "line": 155,
+          "loc": 36,
+          "cc": 2
+        },
+        {
+          "name": "catalog",
+          "line": 191,
+          "loc": 146,
+          "cc": 3
+        },
+        {
+          "name": "<anónima>",
+          "line": 194,
+          "loc": 3,
+          "cc": 3
+        },
+        {
+          "name": "<anónima>",
+          "line": 207,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 207,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 231,
+          "loc": 3,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 232,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 232,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 258,
+          "loc": 74,
+          "cc": 2
+        },
+        {
+          "name": "<anónima>",
+          "line": 265,
+          "loc": 66,
+          "cc": 5
+        },
+        {
+          "name": "<anónima>",
+          "line": 282,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "summary",
+          "line": 338,
+          "loc": 86,
+          "cc": 4
+        },
+        {
+          "name": "<anónima>",
+          "line": 347,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 348,
+          "loc": 37,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 377,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 416,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 416,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "priceRow",
+          "line": 424,
+          "loc": 11,
+          "cc": 1
+        },
+        {
+          "name": "next",
+          "line": 435,
+          "loc": 22,
+          "cc": 3
+        },
+        {
+          "name": "<anónima>",
+          "line": 437,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 437,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "<anónima>",
+          "line": 455,
+          "loc": 1,
+          "cc": 1
+        },
+        {
+          "name": "build",
+          "line": 459,
+          "loc": 79,
+          "cc": 4
+        },
+        {
+          "name": "<anónima>",
+          "line": 461,
+          "loc": 3,
+          "cc": 2
+        }
+      ]
+    }
+  ]
+}
