@@ -20,6 +20,30 @@ Las notas de entrega demo que siguen describen la versión anterior.
 
 Aplicación Flutter para Android/iOS y servidor Node.js + PostgreSQL. El proyecto se encuentra en `Documentos\Ice Cream App\ica.app` (Documentos está sincronizado con OneDrive).
 
+## Proyecto final de Métricas y Estándares de Calidad
+
+Este trabajo académico evalúa la mantenibilidad de Ice Cream App sobre el código
+de Flutter y del servidor. La línea base del informe corresponde al código de la
+aplicación en el commit `93d9ab1`. Se midieron 19 archivos con tres indicadores:
+complejidad ciclomática, líneas efectivas de código y dependencias internas
+directas.
+
+- [Informe técnico en PDF](docs/informe-final.pdf) con los requisitos, la
+  arquitectura, la trazabilidad y los resultados.
+- [Resultados y evidencia de pruebas](docs/metricas/README.md) con la línea base
+  y la comparación después de la mejora.
+- [Instrucciones para repetir la medición](metricas/README.md) con los comandos
+  para analizar Dart y TypeScript.
+- [Guion de sustentación](docs/sustentacion.md) para presentar la aplicación y
+  explicar los resultados.
+
+En una copia de trabajo, la refactorización de validación de pedidos redujo la
+complejidad máxima de `backend/src/order.ts` de **15 a 9**. Las ocho pruebas del
+servidor, incluida la integración con PostgreSQL, pasaron antes y después.
+El [parche](docs/refactorizacion/validacion-pedidos.patch) permite reproducir ese
+cambio. Quedan por completar los datos del equipo y ejecutar la suite Flutter
+para la entrega académica.
+
 ## Funciones
 
 - Catálogo, búsqueda, categorías y favoritos.
