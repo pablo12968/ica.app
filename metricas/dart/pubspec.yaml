@@ -1,0 +1,7 @@
+name: ica_metricas
+publish_to: none
+environment:
+  sdk: ^3.13.2
+dependencies:
+  analyzer: 10.1.0
+  crypto: 3.0.7
