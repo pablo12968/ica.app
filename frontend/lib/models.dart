@@ -69,6 +69,26 @@ const toppings = {
   'Chocolate': 50000,
   'Galleta': 50000,
   'Chispas': 25000,
+  'Chispas de colores': 50000,
+  'Chispas de chocolate': 50000,
+  'Oreo triturada': 80000,
+  'Galleta con chocolate': 80000,
+  'Dulces de chocolate': 80000,
+  'Almendras': 70000,
+  'Fresa fresca': 70000,
+  'Banano': 70000,
+  'Salsa de chocolate': 50000,
+};
+const toppingCategories = {
+  'Chispas de colores': 'Dulces',
+  'Chispas de chocolate': 'Dulces',
+  'Oreo triturada': 'Galletas',
+  'Galleta con chocolate': 'Galletas',
+  'Dulces de chocolate': 'Dulces',
+  'Almendras': 'Frutos secos',
+  'Fresa fresca': 'Frutas',
+  'Banano': 'Frutas',
+  'Salsa de chocolate': 'Salsas',
 };
 String money(int amount) {
   final whole = (amount ~/ 100).toString().replaceAllMapped(
@@ -81,16 +101,35 @@ String money(int amount) {
 
 class CartLine {
   final Product product;
-  final String size, topping;
+  final String size;
+  final List<String> selectedToppings;
+  String get topping =>
+      selectedToppings.isEmpty ? 'Sin topping' : selectedToppings.join(', ');
   int quantity;
-  CartLine(this.product, this.size, this.topping, [this.quantity = 1]);
+  CartLine(Product product, String size, String topping, [int quantity = 1])
+    : this.custom(
+        product,
+        size,
+        topping == 'Sin topping' ? [] : [topping],
+        quantity,
+      );
+  CartLine.custom(
+    this.product,
+    this.size,
+    Iterable<String> extras, [
+    this.quantity = 1,
+  ]) : selectedToppings = List.unmodifiable(extras.toSet().toList()..sort());
   String get key => '${product.id}|$size|$topping';
-  int get unitPrice => product.price + sizes[size]! + toppings[topping]!;
+  int get unitPrice =>
+      product.price +
+      sizes[size]! +
+      selectedToppings.fold<int>(0, (sum, name) => sum + toppings[name]!);
   int get total => unitPrice * quantity;
   Map<String, dynamic> toJson() => {
     'productId': product.id,
     'size': size,
     'topping': topping,
+    'toppings': selectedToppings,
     'quantity': quantity,
   };
 }

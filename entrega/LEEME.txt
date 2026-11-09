@@ -1,0 +1,44 @@
+ICE CREAM APP - VERSION DE PRUEBA PARA ANDROID
+
+Esta version funciona sin servidor y sin pagar alojamiento.
+Puedes probar el catalogo, buscar sabores, guardar favoritos,
+personalizar helados, cambiar cantidades y completar pedidos simulados.
+Los favoritos y el historial quedan guardados en ese telefono.
+El carrito se mantiene durante la sesion.
+
+NUEVA INTERFAZ Y SONIDOS
+Diseno rosa y violeta con imagenes de helados incluidas en la app.
+Pantallas de inicio, busqueda, producto, carrito, pedidos y perfil.
+Los botones tienen sonidos suaves. Puedes silenciarlos en
+Perfil > Sonidos de la app. La preferencia queda guardada.
+
+INSTALAR
+1. Copia o comparte Ice-Cream-App.apk con un telefono Android.
+2. Abre el archivo APK en el telefono.
+3. Si Android lo solicita, permite instalar desde la aplicacion
+   con la que abriste el archivo y pulsa Instalar.
+4. Abre Ice Cream App.
+
+PRUEBA RAPIDA
+Busca un sabor, marcalo como favorito y elige tamano y cantidad.
+Pulsa Personalizar toppings > Elegir toppings. Puedes elegir varios.
+Prueba los filtros, busca un extra y abre Ver resumen.
+Quita un topping y comprueba el total. Pulsa Agregar al carrito.
+Ajusta la cantidad y continua con el pedido.
+Escribe tu nombre y pulsa Simular pedido.
+Comprueba el resultado en Mis pedidos; cierra y abre la app
+para comprobar que el historial y los favoritos siguen guardados.
+
+Los pedidos son simulados: no llegan a una heladeria y no hay cobros.
+No necesitas cuenta, conexion a internet ni tarjeta bancaria.
+Este APK es para Android, no para iPhone. No esta publicado en Play Store.
+Puedes compartir el APK como archivo o subirlo a tu almacenamiento
+para crear un enlace de descarga. No compartas las claves de firma.
+
+PARA EL PROPIETARIO DEL PROYECTO
+Conserva una copia privada de frontend/android/icecream-release.jks
+y frontend/android/key.properties. Son necesarios para firmar futuras
+actualizaciones. No los incluyas junto al APK que compartas.
+Para recompilar: powershell -File scripts/build-android.ps1
+
+Guia detallada: INSTALAR-Y-COMPARTIR.md, en esta misma carpeta.

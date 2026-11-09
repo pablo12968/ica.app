@@ -8,3 +8,7 @@
 **/key.properties
 **/*.jks
 **/*.keystore
+.tools/
+entrega/*.apk
+**/hs_err_pid*.log
+**/replay_pid*.log

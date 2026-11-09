@@ -2,6 +2,17 @@ const { strict: assert } = require('node:assert');
 const { test } = require('node:test');
 const { validateOrder, priceOrder } = require('../dist/order.js');
 const input = () => ({ customer: ' Ana ', expectedTotal: 800000, items: [{ productId: 1, quantity: 2, size: 'Dos bolas', topping: 'Chocolate' }] });
+test('varios toppings se suman por unidad y se normalizan', () => {
+  const payload = { ...input(), items: [{ ...input().items[0], toppings: ['Oreo triturada', 'Fresa fresca'] }] };
+  const order = validateOrder(payload);
+  const line = priceOrder(order.items, [{ id: 1, name: 'Fresa', price: 2500 }])[0];
+  assert.deepEqual(line.toppings, ['Fresa fresca', 'Oreo triturada']);
+  assert.equal(line.unitPrice * line.quantity, 1000000);
+  for (const toppings of [['Oreo triturada', 'Oreo triturada'], ['__proto__'], [null], 'Chocolate', null]) {
+    assert.throws(() => validateOrder({ ...input(), items: [{ ...input().items[0], toppings }] }));
+  }
+  assert.equal(priceOrder(validateOrder({ ...input(), items: [{ ...input().items[0], toppings: [] }] }).items, [{ id: 1, name: 'Fresa', price: 2500 }])[0].unitPrice, 350000);
+});
 test('recalcula con precios del servidor y extras', () => {
   const order = validateOrder(input());
   const lines = priceOrder(order.items, [{ id: 1, name: 'Fresa', price: 2500 }]);
@@ -31,8 +42,8 @@ test('API responde y rechaza JSON o pedidos inválidos sin tocar la base de dato
     assert.equal((await fetch(url)).status, 200);
     assert.equal((await fetch(`${url}/no-existe`)).status, 404);
     assert.equal((await fetch(`${url}/api/orders`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: '{' })).status, 400);
-    assert.equal((await fetch(`${url}/api/orders`, { method: 'POST', headers: { 'Content-Type': 'application/json', 'Idempotency-Key': 'test-order-0001' }, body: JSON.stringify({ ...input(), items: [] }) })).status, 400);
-    assert.equal((await fetch(`${url}/api/orders`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(input()) })).status, 400);
+    assert.equal((await fetch(`${url}/api/orders`, { method: 'POST', headers: { 'Content-Type': 'application/json', 'Idempotency-Key': 'test-order-0001' }, body: JSON.stringify({ ...input(), items: [] }) })).status, 401);
+    assert.equal((await fetch(`${url}/api/orders`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(input()) })).status, 401);
   } finally { await new Promise(resolve => server.close(resolve)); }
 });
 

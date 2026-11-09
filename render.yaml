@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: ice-cream-api
+    runtime: node
+    plan: starter
+    rootDir: backend
+    buildCommand: npm ci --include=dev && npm run build
+    preDeployCommand: node dist/migrate.js
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NODE_VERSION
+        value: "22"
+      - key: TRUST_PROXY_HOPS
+        value: "1"
+      - key: DATABASE_URL
+        fromDatabase:
+          name: ice-cream-db
+          property: connectionString
+databases:
+  - name: ice-cream-db
+    plan: basic-256mb
+    databaseName: ice_cream
+    user: ice_cream
+    ipAllowList: []

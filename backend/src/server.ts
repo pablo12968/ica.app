@@ -4,6 +4,8 @@ const port = Number(process.env.PORT) || 3000;
 async function start() {
   await pool.query('SELECT 1 FROM products LIMIT 1');
   await pool.query('SELECT 1 FROM ica_orders LIMIT 1');
+  await pool.query('SELECT 1 FROM ica_users LIMIT 1');
+  await pool.query('SELECT 1 FROM ica_sessions LIMIT 1');
   const server = app.listen(port, '0.0.0.0', () => console.log(`Ice Cream App API: puerto ${port}`));
   const close = () => server.close(() => { void pool.end(); });
   process.on('SIGINT', close);
