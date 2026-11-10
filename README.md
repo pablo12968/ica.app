@@ -1,5 +1,17 @@
 # Ice Cream App
 
+## Ejecutar con la base de datos incluida
+
+La [guía de base de datos](backend/database/README.md) explica cómo crear las
+tablas, importar el catálogo actual y abrir Chrome conectado al servidor.
+La estructura está en `backend/schema.sql` y los productos con sus precios en
+`backend/database/catalog.json`. Los datos personales y las credenciales no se
+publican en Git. Los cambios de pgAdmin no se sincronizan automáticamente con GitHub.
+
+Para preparar la sustentación móvil, consulta la
+[guía práctica en PDF](docs/Guia-sustentacion-Ice-Cream-App.pdf), con ejercicios
+para cambiar precios, nombres y variables.
+
 ## Actualización 1.1.0: cuentas y pedidos
 
 El código actual incluye registro, inicio/cierre de sesión, pedidos por usuario

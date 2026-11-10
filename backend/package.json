@@ -14,7 +14,9 @@
     "start": "node dist/server.js",
     "db:setup": "npm run build && node dist/migrate.js",
     "test": "npm run build && node --test test/*.test.cjs",
-    "admin:grant": "npm run build && node dist/admin.js"
+    "admin:grant": "npm run build && node dist/admin.js",
+    "db:catalog:export": "npm run build && node database/catalog.cjs export",
+    "db:catalog:import": "npm run build && node database/catalog.cjs import"
   },
   "dependencies": {
     "cors": "^2.8.5",

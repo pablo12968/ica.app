@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Helado de Vainilla",
+    "description": "Delicioso helado de vainilla",
+    "category": "Clásicos",
+    "base_price": "2500.00",
+    "available": true
+  },
+  {
+    "id": 2,
+    "name": "Helado de Chocolate",
+    "description": "Helado cremoso de chocolate",
+    "category": "Clásicos",
+    "base_price": "2500.00",
+    "available": true
+  },
+  {
+    "id": 3,
+    "name": "Helado de Fresa",
+    "description": "Helado refrescante de fresa",
+    "category": "Clásicos",
+    "base_price": "2500.00",
+    "available": true
+  },
+  {
+    "id": 4,
+    "name": "Helado de Oreo",
+    "description": "Helado con trozos de Oreo",
+    "category": "Clásicos",
+    "base_price": "3000.00",
+    "available": true
+  },
+  {
+    "id": 5,
+    "name": "Helado de Vainilla",
+    "description": "Delicioso helado de vainilla",
+    "category": "Clásicos",
+    "base_price": "2500.00",
+    "available": true
+  },
+  {
+    "id": 6,
+    "name": "Helado de Chocolate",
+    "description": "Helado cremoso de chocolate",
+    "category": "Clásicos",
+    "base_price": "2500.00",
+    "available": true
+  },
+  {
+    "id": 7,
+    "name": "Helado de Fresa",
+    "description": "Helado refrescante de fresa",
+    "category": "Clásicos",
+    "base_price": "2500.00",
+    "available": true
+  },
+  {
+    "id": 8,
+    "name": "Helado de Oreo",
+    "description": "Helado con trozos de Oreo",
+    "category": "Clásicos",
+    "base_price": "3000.00",
+    "available": true
+  }
+]
